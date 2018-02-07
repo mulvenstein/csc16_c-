@@ -1,0 +1,9 @@
+sh-4.2$ g++ ptrExp.cpp -o ptrExp.out && ./ptrExp.out
+
+Address of integer 'i' : 0x7fff0a4f4184
+intPtr is referencing :  0x7fff0a4f4184
+intPtr -> val of i :	 1
+Address of integer 'j' : 0x7fff0a4f4180
+Value of intPtr-- == j== 2
+Address of intPtr -- :   0x7fff0a4f4180
+
