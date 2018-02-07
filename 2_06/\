@@ -1,0 +1,20 @@
+/*
+ * author : tom mulvey
+ * date : 2/6/18
+ * prupose : learn basics of pointers!
+ * */
+
+
+#include <iostream>
+
+using namespace std;
+
+int main() {
+   typedef int realNum;
+   //cout << sizeof(int) << endl;
+   realNum i = 0;
+   cout << "Address of integer 'i' : " << &i << endl;
+
+
+   return 0;
+}
