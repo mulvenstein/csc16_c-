@@ -1,0 +1,3 @@
+root@DESKTOP-UI4776L:/mnt/c/Users/tom/Desktop/csc16/csc16_cpp/2_10# g++ csc16-tmulvey1-assignment2.cpp -o csc16-tmulvey1-assignment2.out && ./csc16-tmulvey1-assignment2.out
+ !!!Hello Errors!!!
+Result=15681.6
