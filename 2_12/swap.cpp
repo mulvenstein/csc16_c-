@@ -47,7 +47,7 @@ int main () {
       cout << arr[idx] << " | " ;
    }   
    cout << endl;
-   cout << " after : ";
+   cout << "  after : ";
    for (int idx = 0; idx < 9; ++idx){
       map_add(arr[idx]);
       cout << arr[idx] << " | " ;
