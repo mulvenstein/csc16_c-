@@ -16,6 +16,7 @@ void readValue(int arr[], int size){
 int main() {
    const int arrSize = 7;
    int arr[arrSize] = {};
+   cout<< "enter 7 ints \n ";
    readValue(arr, arrSize);
    display(arr,arrSize);
    cout << "\nPlez enter an integer >> ";

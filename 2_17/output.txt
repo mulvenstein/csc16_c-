@@ -1,0 +1,14 @@
+sh-4.2$ g++ baseConvert.cpp -o baseConvert.out && ./baseConvert.out clear
+--Welcome to base10 convert!--
+
+Enter the base of the number >> 2
+Enter the number to convert >> 10010101
+149
+
+-bash-4.2$ g++ baseConvert.cpp -o baseConvert.out && ./baseConvert.out clear
+--Welcome to base10 convert!--
+
+Enter the base of the number >> 4
+Enter the number to convert >> 1321
+121
+
