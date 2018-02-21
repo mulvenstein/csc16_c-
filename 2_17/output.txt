@@ -1,14 +1,32 @@
-sh-4.2$ g++ baseConvert.cpp -o baseConvert.out && ./baseConvert.out clear
---Welcome to base10 convert!--
+bash-4.2$ g++ base2thru36.cpp -o a.out && ./a.out
+---base convert!!1!!---
 
-Enter the base of the number >> 2
-Enter the number to convert >> 10010101
-149
+[base 2=2. base 8=8, base 10=a, base 16=g, base 36=z ]
+   Enter the base you want to convert from >> 2
+   Number wanted in base (lowercase) 2 you want >> 101
 
--bash-4.2$ g++ baseConvert.cpp -o baseConvert.out && ./baseConvert.out clear
---Welcome to base10 convert!--
 
-Enter the base of the number >> 4
-Enter the number to convert >> 1321
-121
+   101(base 2) = 5
+
+bash-4.2$ g++ base2thru36.cpp -o a.out && ./a.out
+---base convert!!1!!---
+
+[base 2=2. base 8=8, base 10=a, base 16=g, base 36=z ]
+   Enter the base you want to convert from >> 4
+   Number wanted in base (lowercase) 4 you want >> 123
+
+
+   123(base 4) = 27
+
+bash-4.2$ g++ base2thru36.cpp -o a.out && ./a.out
+---base convert!!1!!---
+
+[base 2=2. base 8=8, base 10=a, base 16=g, base 36=z ]
+   Enter the base you want to convert from >> g
+   Number wanted in base (lowercase) g you want >> a123
+
+
+   a123(base g) = 41251
+
+bash-4.2$ 
 

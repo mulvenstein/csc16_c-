@@ -1,0 +1,64 @@
+// // /*
+// //  * baseConvert.cpp
+// //  * author: tom mulvey
+// //  * date : 2/17
+// //  * purpose: convert any base 2-9 into base 10
+// //  */
+
+// // #include <iostream>
+// // #include "stdio.h"
+// // #include "math.h"
+
+// // using namespace std;
+
+// // int convert_to_base10(unsigned short int base, string number){ 
+   
+// //    /*
+// //     * This function takes the base and number(as a string)
+// //     *  that the user wants to turn to base 10.
+// //     *   The function reverses the string and from left to right
+// //     *   multiplies from base^0 to base^size-1 the index of the string
+// //     * when you do int(string#) in c++ it returns the ascii value
+// //     *  so i subtract 48 to get the desired number
+// //     * */
+   
+// //    unsigned short int len = number.length();
+// //    unsigned int result = 0; //returns the result   
+// //    string reversed(number.rbegin(), number.rend());
+  
+// //    for(int i =0; i<len; i++){
+// //       result = result + (int(reversed[i]) - 48) * pow(base, i);
+// //    }
+
+// //    return result;
+// // }
+
+// // int main() {
+// //    unsigned short int base; //const multiplier
+// //    string number_to_convert;
+// //    bool check=true;
+
+// //    cout << "--Welcome to base10 convert!--\n\n" ;
+// //    cout << "Enter the base of the number (2-9) >> ";
+// //       cin >> base;   
+   
+// //    if (base > 10 || base < 2) {
+// //       cout << "   ENTER A BASE <10 & >1\n";
+// //    }
+// //    else{ 
+// //       cout << "Enter the number to convert >> ";
+// //          cin >> number_to_convert;
+// //       //make sure input is valid for num_to_conv
+// //       for(int i=0; i<number_to_convert.length(); i++){
+// //          if((int(number_to_convert[i]) - 48) >= base){
+// //             check = false;
+// //          }            
+// //       }
+// //    }
+// //    if(check==true)
+// //       cout << convert_to_base10(base, number_to_convert); 
+// //    else cout << "enter a valid num";
+   
+// //    cout << endl << endl;
+// //    return 0;
+// // }
