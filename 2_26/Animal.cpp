@@ -1,8 +1,16 @@
 #include <iostream>
 #include "Animal.h"
 
+void Animal::read(){
+   std::cout << "\n   name? : ";
+   std::cin >> m_name;
+   std::cout << "   species? :";
+   std::cin >> m_species;
+   std::cout << "\n";
+}
+
 void Animal::displayContent(){
-   std::cout << "   Animal Type: " << m_species << "\n" ;
+   std::cout << "\n   Animal Type: " << m_species << "\n" ;
    std::cout << "   Animal Name: " << m_name << "\n";
 
    std::cout << "\n\n";
