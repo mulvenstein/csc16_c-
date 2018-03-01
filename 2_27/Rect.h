@@ -1,3 +1,4 @@
+#include <iostream>
 #ifndef RECT_H
 #define RECT_H
 
@@ -28,4 +29,7 @@ class Rect {
 	    m_width;
 };
 
+//external definition of an operator
+std::ostream & operator<<(std::ostream & out, Rect & r);
+std::istream & operator>>(std::istream & in, Rect & r);
 #endif

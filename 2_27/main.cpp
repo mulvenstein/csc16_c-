@@ -9,7 +9,8 @@
 #include "Rect.h"
 
 int main() {
-    Rect quad1;
+    /* before we added out operator
+ *  Rect quad1;
     quad1.displayContents();
 
     std::cout << "   ---------------------------------------------\n";
@@ -20,6 +21,17 @@ int main() {
     std::cout << "   ---------------------------------------------\n";
     quad1.setWidth(5);
     quad1.setLength(21);
-    quad1.displayContents();
+    quad1.displayContents(); */
+    
+    //using overiden ostream insertion operator
+    Rect r1;
+    r1.setWidth(2);
+    r1.setLength(4);
+    std::cout << r1 << "\n";   
+    //using overiden istream extraction operator
+    //std::cout << "\n";
+    Rect r2;
+    std::cin >> r2;
+    std::cout << r2 << "\n";
     return 0;
 }

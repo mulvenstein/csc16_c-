@@ -1,6 +1,23 @@
 #include <iostream>
 #include "Rect.h"
 
+std::ostream & operator<<(std::ostream & out, Rect & r) {
+    out << r.getWidth() << " by " << r.getLength() << "\n"
+        << "area : " << r.findArea() << "\n";
+}
+
+std::istream & operator>>(std::istream & in, Rect & r) {
+    int width, length;
+    std::cout << "width? : "; 
+    in >> width ;
+    std::cout << "length? : ";
+    in >> length; 
+    r.setWidth(width);
+    r.setLength(length);
+    
+    return in;
+}
+
 Rect::Rect() {
     /* sets member w+l to default values incase nothing is sent */
     m_width = 0;
