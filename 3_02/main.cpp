@@ -17,6 +17,7 @@ int main(int argc, char** argv) {
 	cout << "enter number N to find primes from 2-N >> : ";
 	Sieve me;
 	cin >> me;
+	cout << me;
 	//me.calculatePrimes(); 
 	return 0;
 }
