@@ -1,0 +1,12 @@
+sh-4.2$ g++ main.cpp Rect.cpp 
+bash-4.2$ ./a.out 
+2 by 4
+area : 8
+
+width? : 3
+length? : 4
+3 by 4
+area : 12
+
+bash-4.2$ 
+
