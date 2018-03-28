@@ -1,0 +1,23 @@
+bash-4.2$ g++ Array.cpp mainArray.cpp -o exe.out && ./exe.out 
+
+size o array ?? : 3
+
+enter values plz
+   [1] | 2
+   [2] | 3
+   [3] | 4
+
+
+array elements: 
+   [1] | 2
+   [2] | 3
+   [3] | 4
+arr2 vals
+
+
+array elements: 
+   [1] | 2
+   [2] | 3
+   [3] | 4
+
+
